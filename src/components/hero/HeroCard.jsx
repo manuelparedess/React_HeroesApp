@@ -8,7 +8,8 @@ export const HeroCard = ({
     publisher,
     alter_ego,
     first_appearance,
-    characters
+    characters,
+    image
 }) => {
     return (
         <div className='col'>
@@ -16,7 +17,7 @@ export const HeroCard = ({
                 
                 <div className='row'>
                     <div className='col-4'> 
-                        <img src={`src/assets/${id}.jpg`} className='card-img-top' alt={superhero} /> 
+                        <img src={ image } className='card-img-top' alt={superhero} /> 
                     </div>
 
                     <div className='col-8'>
