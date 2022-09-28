@@ -42,7 +42,7 @@ export const SearchScreen = () => {
                     <h4>Search</h4>
                     <hr />
 
-                    <form onSubmit={handleSearch}>
+                    <form onSubmit={handleSearch} aria-label='form'>
                         <input
                             type='text'
                             placeholder='Search a hero'
